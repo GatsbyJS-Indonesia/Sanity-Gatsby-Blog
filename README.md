@@ -1,38 +1,43 @@
-# Blog with Gatsby and Sanity
+# Blog menggunakan Sanity CMS dengan Gatsby
 
-_Fully customizable blog template with a React.js front-end._
+## Apa yang dimiliki
 
-Deployed from [sanity.io/create](https://www.sanity.io/create/?template=sanity-io%2Fsanity-template-gatsby-blog).
+- Pengembangan Blog dengan cepat menggunakan [Gatsby.js](https://gatsbyjs.org)
+- Struktur konten melalui [Sanity.io](https://www.sanity.io)
+- Global deployment dengan menggunakan [Netlify](https://netlify.com)
 
-## What you have
+## Cara menggunakan
 
-- A blazing fast blog with [Gatsby.js](https://gatsbyjs.org)
-- Structured content using [Sanity.io](https://www.sanity.io)
-- Global deployment on [Netlify](https://netlify.com)
+1. Clone repositori ini `git clone https://github.com/GatsbyJS-Indonesia/Sanity-Gatsby-Blog.git`
+2. `npm install` pada root project
+3. `npm run dev` untuk menjalankan Blog Website dan Studio pada localhost
+   - Untuk menjalankan Studio 👉 [http://localhost:3333](http://localhost:3333)
+   - Untuk menjalankan Web Blog 👉 [http://localhost:8000](http://localhost:8000)
+4. `npm run build` untuk build dan production
 
-## Quick start
+## Deploy Status
+[![Netlify Status](https://api.netlify.com/api/v1/badges/238a5509-fc72-4475-a765-4818450bf042/deploy-status)](https://app.netlify.com/sites/sanity-gatsby-blog-web-zseqtj6f/deploys)
 
-1. Clone this repository
-2. `npm install` in the project root folder on local
-3. `npm run dev` to start the studio and frontend locally
-   - Your studio should be running on [http://localhost:3333](http://localhost:3333)
-   - Your frontend should be running on [http://localhost:8000](http://localhost:8000)
-4. `npm run build` to build to production locally
+## Author
+> 🤵 Eka Prasetia
 
-## Enable real-time content preview on development
+<a href="https://www.ekaprasetia.com/">
+  <img src="https://img.shields.io/badge/Writer-Blog-orange" alt="Blog" />
+</a>
 
-1. Go to your [project’s API settings on manage.sanity.io](https://manage.sanity.io/projects/v8zcppa6/settings/api) and create a token with read rights.
-2. Rename `.env.development.template` to `.env.development` and paste in the token: `SANITY_READ_TOKEN="yourTokenHere"`.
-3. Restart the development server (`ctrl + C` and `npm run dev`).
+<a href="https://twitter.com/dannyeka">
+  <img src="https://img.shields.io/badge/Tweet-Twitter-blue" alt="Twitter" />
+</a>
 
-If you want to turn off preview you can set `watchMode: false` in gatsby-config.js. If you just want to preview published changes you can set `overlayDrafts: false` in gatsby-config.js.
+<a href="mailto:ekaone3033@gmail.com">
+  <img src="https://img.shields.io/badge/Email-ekaone3033@gmail.com-yellow" alt="Email" />
+</a>
 
-## Deploy changes
+## Collection my App
+Find example all my [Scratch App](https://twolevel.net)
 
-Netlify automatically deploys new changes commited to master on GitHub. If you want to change deployment branch, do so in [build & deploy settings on Netlify](https://www.netlify.com/docs/continuous-deployment/#branches-deploys).
+## Community
+I am author for two communities in Indonesia
+- GatsbyJS Indonesia [Gatsby-ID](https://gatsbyjs.id)
+- RedwoodJS Indonesia [Redwood-ID](https://redwoodjs.id)
 
-## Stuck? Get help
-
-[![Slack Community Button](https://slack.sanity.io/badge.svg)](https://slack.sanity.io/)
-
-Join [Sanity’s developer community](https://slack.sanity.io) or ping us [on twitter](https://twitter.com/sanity_io).
